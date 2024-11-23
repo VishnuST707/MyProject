@@ -149,7 +149,7 @@ function Addmanager() {
             />
           </Form.Group>
 
-          <Button variant="white" type="submit" className='buttonsubmit'>
+          <Button  type="submit" className='buttonsubmit'>
             Submit
           </Button>
         </Form>

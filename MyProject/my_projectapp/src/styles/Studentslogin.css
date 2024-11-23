@@ -149,7 +149,7 @@
   .btnbutton{
       box-shadow: 8px 8px 10px rgba(15, 0, 0, 0.352);
       background-color: rgb(252, 3, 3);
-      color: white;}
+      }
       .btnbutton:hover{
         background-color: rgba(105, 38, 38, 0.679); 
       }
