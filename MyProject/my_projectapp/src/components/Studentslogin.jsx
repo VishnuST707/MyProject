@@ -347,12 +347,12 @@ function Studentslogin() {
               <Container>
                 <Row className="justify-content-between">
                   <Col xs="auto">
-                    <Button onClick={handlePrevious} disabled={currentForm === 0} variant="white" className='btnbutton'>
+                    <Button onClick={handlePrevious} disabled={currentForm === 0} className='btnbutton'>
                       Previous
                     </Button>
                   </Col>
                   <Col xs="auto">
-                    <Button onClick={handleNext} variant="white" className='btnbutton'>
+                    <Button onClick={handleNext}  className='btnbutton'>
                       Next
                     </Button>
                   </Col>
@@ -497,12 +497,12 @@ function Studentslogin() {
               <Container>
                 <Row className="justify-content-between">
                   <Col xs="auto">
-                    <Button onClick={handlePrevious} variant="white" className='btnbutton'>
+                    <Button onClick={handlePrevious}  className='btnbutton'>
                       Previous
                     </Button>
                   </Col>
                   <Col xs="auto">
-                    <Button type="submit" variant="white" className='btnbutton'>
+                    <Button type="submit" className='btnbutton'>
                       Submit
                     </Button>
                   </Col>
